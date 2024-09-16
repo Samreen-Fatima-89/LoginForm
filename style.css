@@ -1,41 +1,91 @@
-*{
-    font-family:  "Lato", sans-serif;   
-    margin: 0px;
-   
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+  color: white;
 }
-.main-card{
-    position: relative;
+.main-card {
+  position: relative;
 }
-.main-div{
-padding: 15px;
-    position: absolute;
-    left: 70px;
-    top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+.top-div {
+  padding: 15px;
+  position: absolute;
+  left: 70px;
+  top: 50px;
+  width: 250px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
-.inputs-card{
-   
-    display: flex;
-    flex-direction: column;
-   justify-content: center;
-   align-items: center;
- width: 100%;
-   padding: 5px;
-   gap: 5px;
+.title {
+  margin: 15px;
 }
-input{
-    background-color: transparent;
-    border: none;
-    width: 100%;
-    color: white;
-    border-bottom: 2px solid rgb(13, 1, 1);
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-input::placeholder{
- color: rgb(14, 1, 1);
+.inputs-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  gap: 20px;
+}
+input {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid white;
+}
+input::placeholder {
+  color: white;
+}
+.card-check {
+  display: flex;
+}
+.check-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.check,
+.check-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.check-text {
+  font-size: 14px;
+}
+.check {
+  font-size: 14px;
+  margin: 5px 0px;
+}
+.check,
+input {
+  gap: 5px;
+}
+.card-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.btn-log {
+  background-color: white;
+  width: 90%;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  color: black;
+}
+.card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
 }
